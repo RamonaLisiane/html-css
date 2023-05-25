@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p> Tente abrir esse site em varios dispositivos diferentes 
+        ou simplismente aumente e diminua o tamanho do navegador</p>
+
+        <picture>
+            <source 
+            srcset="imagens/fotop.png"
+             media="(max-width:500px)">
+           <source
+           srcset="imagens/fotom.png"
+             media="(max-width:750px) ">
+            <img
+
+            src="imagens/fotog.png"
+            alt="imagem m">
+       
+        </picture>
+        <h1> Reproduzindo audio</h1>
+        <p> aprendendo a reproduzir audio</p>
+        <audio src="audio/ladobunker_81.mp3" controls autoplay ></audio>
+        <!--- outra maneira de adcionar audio abaixo-->
+   
+      <audio>
+        <source src="audio/ladobunker_81.mp3" type="audio/mpeg">
+        
+      </audio>
+    
+</body>
+</html>
